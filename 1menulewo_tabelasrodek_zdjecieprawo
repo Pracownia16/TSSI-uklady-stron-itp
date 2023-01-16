@@ -1,0 +1,158 @@
+<!DOCTYPE html> 
+<html lang="PL"> 
+<head> 
+<title>tabele</title> 
+<meta charset="UTF-8">
+<meta name="keywords" content="tabele"> 
+<meta name="author" content="Uchto"> 
+<style> 
+    *
+	{
+	    box-sizing:border-box;
+        margin: 0;
+        padding: 0;
+	}
+
+    .all
+	{
+	    width: 960px;
+	    background: rgb(224, 255, 255);
+	    margin: 20px auto;
+	    overflow:hidden;
+	}
+	
+    header
+	    {
+	    text-align: left;
+	    background-color: rgb(0, 206, 209);
+        padding: 30px;
+	    }
+
+    header > p{
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration:  underline;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    a{
+        display: block;
+        width: 150px;
+        border: 2px solid black;
+        padding: 5px;
+        background: grey;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 10px;
+        text-decoration: none;
+        text-align: center;
+        }
+
+    ul{
+        margin:5px;
+        padding:30px;
+        list-style-type:none;
+        }
+
+    .lewa
+	    {
+	    width:230px;
+	    float:left;
+	    }
+	
+    .prawa
+	    {
+	    width:230px;
+	    float:left;
+	    }
+	
+    .srodek
+	    {
+	    width:500px;
+	    float:left;
+	    border-left:2px dotted rgb(0, 206, 209);
+	    border-right:2px dotted rgb(0, 206, 209);
+        text-align: center;
+        margin: 0;
+	    } 
+	
+    
+	
+    footer
+	    {
+	    text-align:center;
+        background-color: rgb(0, 206, 209);
+	    clear: both;
+        padding: 10px;
+	    }
+
+    tr, td, table{
+        border: 2px solid black;
+        margin: 0 auto;
+        padding: 0;
+        width: 220px;
+        height: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    img{
+        width:150px;
+        height:150px;
+        border: 2px solid black;
+        display: block;
+        margin-top: 50px;
+        margin-left: 40px;
+        }
+</style> 
+</head>
+<body>
+    <div class="all">
+        <header>
+            <p>Strona internetowa</p>
+        </header>
+
+        <div class="prawa">
+            <ul>
+                <li><a href="sus">Strona główna</a></li>
+                <li><a href="sus">Podstrona 1</a></li>
+                <li><a href="sus">Podstrona 2</a></li>
+                <li><a href="sus">Pomoc</a></li>
+            </ul>
+
+        </div>
+
+        <div class="srodek">
+            <table>
+                <tr>
+                    <td colspan="2">1A</td>
+                    <td>1B</td>
+                    <td>1C</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2A</td>
+                    <td>2B</td>
+                    <td colspan="2">2C</td>
+                </tr>
+                <tr>
+                    <td>3A</td>
+                    <td colspan="2">3B</td>
+                    
+                </tr>
+            </table>
+            
+        </div>
+
+        <div class="prawa">
+            <img src="html.png" alt="tu mialo byc zdjecie">
+        </div>
+        <footer>
+            stopa stopkas <b>Ktos tam ktos</b>
+        </footer>
+    </div>
+
+    
+</body>
+</html>
