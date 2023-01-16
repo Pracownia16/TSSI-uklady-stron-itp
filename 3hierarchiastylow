@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<html lang="PL"> 
+<head> 
+<title>tabele</title> 
+<meta charset="UTF-8">
+<meta name="keywords" content="tabele"> 
+<meta name="author" content="aha"> 
+<style> 
+    body{
+        margin: 0;
+        padding: 0;
+	}
+	.all
+	{					
+		width: 80%  ;
+		margin: 0 auto;
+		background: rgb(200,200,200);
+	}
+	header
+	{
+		border-bottom: 2px solid black;
+		text-align:center;
+		background-color: green;
+	}
+	main{
+		text-align: center;
+ 		list-style-position: inside;
+	}
+	footer{
+		border-top: 2px solid black;
+		text-align: center;
+		background-color: green
+	}
+
+    ul li{
+        display: inline;	
+    }
+    a{
+        display: inline;
+        background-color: white;
+        text-align: center;
+        border: 2px solid black;
+        text-decoration: none;
+        color: black;
+	
+    }
+
+	p{
+		text-align: center;
+	}
+
+
+	img{
+		border-style: solid;;
+		border-color: black;
+		background: yellow;
+	}
+	table, tr, td, th{
+		border: 2px solid black;
+		margin: 0 auto;
+		width:150px;
+		height:50px;
+		text-align:center;
+	}
+	tr:link{
+		background:red;
+	}
+	tr:visited{
+		background:red;
+	}
+	tr:hover{
+		background:red;
+	}
+	tr:active{
+		background:red;
+	}
+</style> 
+</head>
+<body>
+<div class="all">
+    <header>
+        <p>Strona internetowa</p>
+        <ul>
+            <li><a href="sus">Strona główna</a></li>
+            <li><a href="sus">Podstrona 1</a></li>
+            <li><a href="sus">Podstrona 2</a></li>
+            <li><a href="sus">Pomoc</a></li>
+        </ul>
+
+    </header>
+	
+	<main>
+		<p><strong>Hierarchia stylów</strong></p>
+		<ol type="I">
+			<li>XXX</li>
+			<li>XXX</li>
+			<li>XXX</li>
+			<li>XXX</li>
+			<li>XXX</li>
+			<li>XXX</li>
+			<li>XXX</li>
+			<li>XXX</li>
+		</ol>
+		<hr>
+		<table>
+			<tr><th>1A</th><th>1B</th><th>1C</th></tr>
+			<tr><th>1A</th><th>1B</th><th>1C</th></tr>
+			<tr><th>1A</th><th>1B</th><th>1C</th></tr>
+		</table>
+		<pre>
+		</pre>
+	</main>
+	<footer>
+	stopa stopka
+	</footer>
+</div>
+</body>
+</html>
