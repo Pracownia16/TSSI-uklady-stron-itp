@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="aaaa">
+    <meta name="author" content="dzwig">
+    <title>Document</title>
+<style>
+
+    *
+	{
+	    box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+	}
+
+    .all{
+        width: 960px;
+        background: rgb(224, 255, 255);
+        margin: 20px auto;
+        overflow: hidden;
+    }
+
+    .lewa
+	    {
+	    width: 230px;
+        height: 400px;
+	    float:left;
+        border-right: 2px dashed rgb(0, 206, 209);
+	}
+
+    .prawo{
+	    width:230px;
+	    float:left;
+	}
+
+
+    a{
+        display: block;
+        width: 150px;
+        border: 2px solid black;
+        text-align: center;
+        padding: 2px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        background: rgb(0, 206, 209);
+        color: black;
+    }
+
+    ul{
+        margin:5px;
+        padding:30px;
+        list-style-type:none;
+    }
+
+    img{
+        width: 140px;
+        height: 140px;
+        border: 2px solid rgb(0, 206, 209);
+        display: block;
+        background: gray;
+    }
+
+    .lewy_napis{
+        margin-top: 120px;
+        margin-left: 90px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+
+    .prawy_obrazek{
+        margin-top: -125px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 300px; 
+    }
+
+    .aha{
+        display:inline-block;
+        vertical-align:top;
+    }
+
+
+    .lewy_obrazek{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-right: 300px;
+        margin-left: 90px; 
+        float: left;
+    }
+
+    .prawy_napis{
+        margin-top: -120px;
+        margin-left: 150px;
+        margin-bottom: 20px;
+        margin-right: -220px;
+        float: right;
+    }
+
+
+</style>
+</head>
+<body>
+    <div class="all">
+        <div class="lewa">
+            <ul>
+                <li><a href="aha">Strona glowna</a></li>
+                <li><a href="aha">Podstrona nr 1</a></li>
+                <li><a href="aha">Podstrona nr 2</a></li>
+                <li><a href="aha">Pomoc</a></li>
+            </ul>
+
+        </div>
+        <div class="prawo">
+            <div class="aha">
+                <div class="lewy_napis"><p>Napis z lewej strony</p></div>
+                <div class="prawy_obrazek">
+                    <img src="html.png" alt="aha">
+                </div>
+            </div>
+
+            <div class="aha2">
+                <div class="lewy_obrazek">
+                    <img src="html.png" alt="aha">
+                </div>
+                <div class="prawy_napis"><p>Napis z prawej strony</p></div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+</body>
+</html>
