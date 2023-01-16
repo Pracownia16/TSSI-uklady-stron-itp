@@ -19,9 +19,20 @@
 	header
 	{
 		border-bottom: 2px solid black;
-		text-align:center;
+		text-align: right;
+        padding: 10px;
 		background-color: green;
 	}
+
+    header > p{
+        text-transform: uppercase;
+        text-align: center;
+        text-decoration:  underline;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: left;
+    }
+    
 	main{
 		text-align: center;
  		list-style-position: inside;
@@ -42,6 +53,9 @@
         border: 2px solid black;
         text-decoration: none;
         color: black;
+        width: 150px;
+        padding: 5px;
+        
 	
     }
 
@@ -74,6 +88,10 @@
 	tr:active{
 		background:red;
 	}
+
+    hr{
+        border: 1.7px dotted black;
+    }
 </style> 
 </head>
 <body>
