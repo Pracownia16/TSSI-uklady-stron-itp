@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="PL">
+    <head>
+        <title>tabele</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="tabele">
+        <meta name="author" content="Uchto">
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            .all {
+                width: 960px  ;
+                
+                background: rgb(200,200,200);
+                font-family: Helvetica, non-serif;
+            }
+            header {
+                text-align: right;
+                background-color: green;
+                padding: 30px;
+            }
+            header > p {
+                text-transform: uppercase;
+                text-align: center;
+                text-decoration:  underline;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            main {
+                padding-top: 30px;
+                text-align: center;
+                list-style-position: inside;
+            }
+            footer {
+                padding: 10px;
+                text-align: center;
+                background-color: green
+
+            }
+
+            ul {
+                margin-top:  40px;
+            }
+
+            ul li {
+                display: inline;
+            }
+
+            a {
+                display: inline;
+                background-color: white;
+                text-align: center;
+                border: 2px solid black;
+                text-decoration: none;
+                color: black;
+                padding: 5px;
+
+
+            }
+
+            main > p {
+                font-size:  20px;
+                text-align: center;
+                padding: 10px;
+            }
+
+            img {
+                height:  150px;
+                margin: 30px;
+                border-style: solid;;
+                border-color: black;
+                background: yellow;
+            }
+
+            b {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="all">
+            <header>
+                <p>Strona internetowa</p>
+                <ul>
+                    <li><a href="sus">Strona główna</a></li>
+                    <li><a href="sus">Podstrona 1</a></li>
+                    <li><a href="sus">Podstrona 2</a></li>
+                    <li><a href="sus">Pomoc</a></li>
+                </ul>
+
+            </header>
+
+            <main>
+                <p><strong>Selektory</strong></p>
+                <ol type="I">
+                <li>selektor a</li>
+                <li>selektor b</li>
+                <li>pozostałe</li>
+                </ol>
+                <img src="html.png" alt="tu mialo byc zdjecie">
+            </main>
+            <footer>
+                stopa stopkas <b>Ktos tam ktos</b>
+            </footer>
+        </div>
+    </body>
+</html>
