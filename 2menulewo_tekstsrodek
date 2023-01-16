@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html lang="PL"> 
+<head> 
+<title>tabele</title> 
+<meta charset="UTF-8">
+<meta name="keywords" content="tabele"> 
+<meta name="author" content="aha"> 
+<style> 
+*
+	{
+	box-sizing:border-box;
+	}
+
+#pojemnik
+	{
+	width:1000px;
+	background:gray;
+	margin:20px auto;
+	overflow:hidden;
+	}
+	
+.lewa
+	{
+	
+	width:300px;
+	float:left;
+	}
+	
+.srodek
+	{
+	text-align:center;
+	width:700px;
+	float:left;
+	border-left:2px solid black;
+	} 
+	
+header
+	{
+	text-align:center;
+	border-bottom:2px solid black;
+	}
+	
+footer
+	{
+	text-align:center;
+	border-top:2px solid black;
+	clear:both
+	}
+ul{
+margin:5px;
+padding:30px;
+list-style-type:none;
+}
+a{
+width:150px;
+border: 2px solid black;
+display: block;
+padding: 5px; 
+background: aqua;
+text-transform:uppercase;
+color:black;
+margin-bottom: 10px;
+text-decoration:none;
+text-align:center;
+}
+ol li{
+list-style-position: inside; 
+}
+img{
+width:150px;
+height:150px;
+border: 2px solid black;
+}
+</style> 
+</head>
+<body>
+<div id="pojemnik">
+	<header><h1><ins>Strona internetowa</ins></h1></header>
+	<div class="lewa">
+	<ul>
+		<li><a href="#home">Strona główna</a></li>
+		<li><a href="#funcions">Podstrona1</a></li>
+		<li><a href="#projekty">Podstrona2</a></li>
+		<li><a href="#kontakt">Pomoc</a></li>
+	</ul>
+	</div>
+	<div class="srodek">
+	<p><strong>Informacje</strong></p>
+	<ol type="I">
+			<li><strong>Dane ucznia:</strong>
+			<ol>
+			<li>Imie</li>
+			<li>Nazwisko</li>
+			<li>klasa </li>
+			<li>numer</li>
+			</ol>
+			</li>
+			<li><strong>Test:</strong> Statyczne strony internetowe</li>
+			<li><strong>Data:</strong>Grudzień</li>
+		</ol>
+	<img src="html5.png" alt="tu mialo byc zdjecie">
+	<pre>
+	</pre>
+	</div>
+	<footer><h2>stopka stopka stopka</h2></footer>
+</div>
+</body>
+</html>
