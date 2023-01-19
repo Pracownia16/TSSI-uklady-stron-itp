@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Sprawdzian</title>
+	<style>
+	*{ box-sizing: border-box; }
+
+#container{
+    width: 980px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+header{
+    background-color: #00CED1;
+	height:120px;
+    text-decoration: underline;
+	width: 100%;
+	float:left;
+	font-size:50px;
+	font-weight: bold;
+	padding: 25px;
+	font-family: sans-serif;
+}
+footer{
+    background-color: #00CED1;
+    text-align: center;
+    padding: 10px;
+	float: left;
+	width:100%;
+}
+.left{
+    float: left;
+    width: 20%;
+    border-right: 2px dashed #008080;
+    text-align: center;
+    background-color: #E0FFFF;
+    box-sizing: border-box;                                                                                                                                                            
+    height: 500px;
+}
+.main{
+    float: left;
+	background-color: #E0FFFF;
+    width: 80%;
+    height: 500px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+}
+
+
+
+                                
+nav a {                                                                        
+	display: inline-block;
+	border: 2px solid black;
+	background-color: #00CED1;
+	width: 150px;
+	padding: 0px;
+	margin: 5px 0px;
+	border-radius: 1px;
+	text-decoration: none;
+	color: black;
+	text-align: left;
+}
+
+a:hover {
+	font-weight: bold;
+	color: #008080;
+}
+
+img {
+	border: 5px solid #00CED1;
+	background-color: gray;
+	padding: 10px;
+	margin-top: 20px
+}
+
+.sr {
+	width: fit-content;
+	margin: 0 auto;
+}
+
+a:hover{
+color: red;
+}
+
+	</style>
+</head>
+<body>
+    <div id="container">
+		<header><i>STRONA INTERNETOWA</i></header>
+		<div class="left">
+		<nav>
+			<ul>
+				<li><a href="#">Strona Główna</a></li>
+				<li><a href="#">Podstrona nr 1</a></li>
+				<li><a href="#">Podstrona nr 2</a></li>
+				<li><a href="#">Pomoc</a></li>
+			</ul>
+		</nav>
+		
+		
+		
+		</div>
+		<div class="main">
+				<div class="sr">
+			<h1>Informacje</h1>
+		
+			<ul style="list-style: upper-roman;">
+				<li><b>Dane ucznia: </b>
+					<ul style="list-style: lower-latin;">
+						<li>Imię: Oskar</li>
+						<li>Nazwisko: Biedroń</li>
+						<li style="color: blue;">Klasa: 1P</li>
+						<li>Numer: 2</li>
+					</ul></li>
+				<li><b>Test:</b> Statyczne Strony Internetowe</li>
+				<li><b>Data:</b> styczeń</li>
+			</ul>
+		
+				<img src="html5.png" alt="html">
+				</div>
+		</div>
+		<footer>Strona utworzona przez <b>Oskara Biedronia</b></footer>
+	</div>
+</body>
+</html>
