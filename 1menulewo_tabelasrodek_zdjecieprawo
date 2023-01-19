@@ -39,7 +39,7 @@
     
     a{
         display: block;
-        width: 150px;
+        width: 180px;
         border: 2px solid black;
         padding: 5px;
         background: grey;
@@ -48,6 +48,7 @@
         margin-bottom: 10px;
         text-decoration: none;
         text-align: center;
+        margin-left: -5px;
         }
 
     ul{
@@ -72,14 +73,11 @@
 	    {
 	    width:500px;
 	    float:left;
-	    border-left:2px dotted rgb(0, 206, 209);
-	    border-right:2px dotted rgb(0, 206, 209);
+	    border-left:2px dashed rgb(0, 206, 209);
+	    border-right:2px dashed rgb(0, 206, 209);
         text-align: center;
         margin: 0;
 	    } 
-	
-    
-	
     footer
 	    {
 	    text-align:center;
@@ -106,20 +104,23 @@
         margin-top: 50px;
         margin-left: 40px;
         }
+    tr:hover{
+        background-color: red;
+    }
 </style> 
 </head>
 <body>
     <div class="all">
         <header>
-            <p>Strona internetowa</p>
+            <p><i>Strona internetowa</i></p>
         </header>
 
         <div class="prawa">
             <ul>
-                <li><a href="sus">Strona główna</a></li>
-                <li><a href="sus">Podstrona 1</a></li>
-                <li><a href="sus">Podstrona 2</a></li>
-                <li><a href="sus">Pomoc</a></li>
+                <li><a href=".">Strona główna</a></li>
+                <li><a href=".">Podstrona 1</a></li>
+                <li><a href=".">Podstrona 2</a></li>
+                <li><a href=".">Pomoc</a></li>
             </ul>
 
         </div>
@@ -149,7 +150,7 @@
             <img src="html.png" alt="tu mialo byc zdjecie">
         </div>
         <footer>
-            stopa stopkas <b>Ktos tam ktos</b>
+            Strona zrobiona przez <b>Filip Tomczykiewicz</b>
         </footer>
     </div>
 
